@@ -1,4 +1,4 @@
-// script.js - funcionalidade completa do Disiplini
+// script.js - funcionalidade 
 
 let timer;
 let timerRunning = false;
