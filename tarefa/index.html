@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Produtividade </title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <button id="toggle-dark">🌙</button>
+  <header>
+    <h1>  Minhas Tarefas  </h1>
+    <p> foco e tempo  </p>
+  </header>
+
+  <main>
+    <section class="focus-timer">
+      <h2>⏳ tempo de Foco </h2>
+      <label>Defina o tempo de foco (min): <input type="number" id="focus-duration" value="25" min="1" max="180"></label>
+      <div id="timer">25:00</div>
+      <div class="timer-controls">
+        <button onclick="startTimer()">Iniciar</button>
+        <button onclick="pauseTimer()">Pausar</button>
+        <button onclick="resetTimer()">Resetar</button>
+      </div>
+    </section>
+ <section class="productivity-chart">
+      <h2>📊 Produtividade do Dia</h2>
+      <canvas id="chart"></canvas>
+    </section>
+ <section>
+      <h2>📝 Adicione uma Tarefa</h2>
+      <form id="task-form">
+        <input type="text" id="task-name" placeholder="Tarefa" required>
+        <textarea id="task-desc" placeholder="Descrição"></textarea>
+        <label>Dia da Semana:
+          <select id="task-day">
+            <option>Segunda</option><option>Terça</option><option>Quarta</option>
+            <option>Quinta</option><option>Sexta</option><option>Sábado</option><option>Domingo</option>
+          </select>
+        </label>
+        <label>Início: <input type="time" id="task-start"></label>
+        <label>Fim: <input type="time" id="task-end"></label>
+        <button type="submit">Adicionar</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>📅 Tarefas do Dia</h2>
+      <ul id="task-list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p> © 2025 </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
