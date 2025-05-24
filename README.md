@@ -1,5 +1,7 @@
 # 🧠 Produtividade e Foco – Web App
 
+Link do projeto :  https://esterborba0407.github.io/tarefas/ 
+
 Este é um projeto de aplicativo web que ajuda você a manter o foco, gerenciar tarefas e visualizar sua produtividade diária. O app conta com **timer de foco estilo Pomodoro**, **gráfico de produtividade com Chart.js**, **modo escuro** e **organização de tarefas por dia da semana**.
 
 ## 🚀 Funcionalidades
