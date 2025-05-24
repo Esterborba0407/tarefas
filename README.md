@@ -17,6 +17,14 @@ Este é um projeto de aplicativo web que ajuda você a manter o foco, gerenciar 
 - **Chart.js** para gráficos
 - **LocalStorage** para persistência de dados
 
+✨ Contribuição
+Sinta-se à vontade para abrir issues ou fazer pull requests. Melhorias são sempre bem-vindas!
+
+📄 Licença
+MIT. Livre para uso pessoal e profissional. ✌️
+
+Desenvolvido com 💻 Por Ester Borba
+
 ## 📁 Estrutura do Projeto
 
 ```bash
@@ -26,4 +34,3 @@ Este é um projeto de aplicativo web que ajuda você a manter o foco, gerenciar 
 ├── script.js            # Lógica JS (timer, tarefas, gráfico)
 └── README.md            # Este arquivo
 
-Desenvolvido com 💻 Por Ester Borba
