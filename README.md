@@ -25,3 +25,5 @@ Este é um projeto de aplicativo web que ajuda você a manter o foco, gerenciar 
 ├── style.css            # Estilização e temas
 ├── script.js            # Lógica JS (timer, tarefas, gráfico)
 └── README.md            # Este arquivo
+
+Desenvolvido com 💻 Por Ester Borba
